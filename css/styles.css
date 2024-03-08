@@ -613,4 +613,9 @@ transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .btn-windows:focus{
   background-color: #404bbf;
   border: none;
+  fill: #fff;
+}
+
+.svg-windows{
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
