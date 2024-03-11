@@ -622,7 +622,6 @@ transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   height: 24px;
   cursor: pointer;
   background-color: #e7e9fc;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -644,16 +643,15 @@ fill: #ffffff;
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
-
 .p-windows{
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  text-align: center;
   letter-spacing: 0.02em;
+  text-align: center;
   color: #2e2f42;
-  margin-bottom: 16px;
+  max-width: 360px;
+  margin-bottom: 16px
 }
 
 .div-form-review{
@@ -665,19 +663,21 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .label-form-review{
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: #8e8f99;
   display: block;
-  margin-bottom: 4px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+    margin-bottom: 4px;
 }
 
 .input-form-review{
-  width: 100%;
-  height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
+  height: 40px;
+  width: 100%;
+  font-size: 18px;
+  color: #2e2f42;
   background-color: transparent;
   padding-left: 38px;
   outline: transparent;
@@ -686,19 +686,18 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .intup-form-review:focus{
   border-color: #4d5ae5;
-  outline: transparent;
 }
 
 .svg-form-review{
   position: absolute;
-  left: 16px;
   top: 50%;
-  transform: translateY(-50%);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  left: 16px;
+  transform: translateY(-50%)
 }
 
 .intup-form-review:focus + .svg-form-review{
-  fill: #4d5ae5; 
+  fill: #4d5ae5;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .div-class-windows{
