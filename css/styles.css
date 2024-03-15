@@ -689,6 +689,13 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: #2e2f42;
 }
 
+.input-form-review{
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+}
+
 .intup-form-review:focus{
   border: 1px solid #4d5ae5;
 }
@@ -732,6 +739,9 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   letter-spacing: 0.04em;
 }
 
+.textarea-class:focus{
+  border-color: #4d5ae5;
+}
 
 .review-form-checkbox-wrapper{
   margin-bottom: 24px;
